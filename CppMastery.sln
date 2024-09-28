@@ -13,6 +13,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "filesystem", "filesystem", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list_executable_files", "filesystem\list_executable_files\list_executable_files.vcxproj", "{C2A5A167-0801-4411-B5E9-4EEA2E03EF46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{031F44E8-1EA6-45AA-AA21-264F8370B5E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{6AB6F86F-74AD-4CB0-A5FD-7FB06CB43825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsoncpp_example", "jsoncpp_example", "{885B8179-20C0-4CBB-BAB7-0400C8BD65D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "json_type_conversion_example.cpp", "libraries\json\jsoncpp_examples\json_type_conversion_example.cpp\json_type_conversion_example.cpp.vcxproj", "{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +53,14 @@ Global
 		{C2A5A167-0801-4411-B5E9-4EEA2E03EF46}.Release|x64.Build.0 = Release|x64
 		{C2A5A167-0801-4411-B5E9-4EEA2E03EF46}.Release|x86.ActiveCfg = Release|Win32
 		{C2A5A167-0801-4411-B5E9-4EEA2E03EF46}.Release|x86.Build.0 = Release|Win32
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Debug|x64.ActiveCfg = Debug|x64
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Debug|x64.Build.0 = Debug|x64
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Debug|x86.ActiveCfg = Debug|Win32
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Debug|x86.Build.0 = Debug|Win32
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Release|x64.ActiveCfg = Release|x64
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Release|x64.Build.0 = Release|x64
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Release|x86.ActiveCfg = Release|Win32
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +69,9 @@ Global
 		{E218CEAA-1321-47E8-A4BF-ACF41209C59C} = {5C44BF0B-C43F-446A-914D-C79125F43DB3}
 		{8B93C33E-2D89-4E05-8BA6-0F6BD43C6FDC} = {5C44BF0B-C43F-446A-914D-C79125F43DB3}
 		{C2A5A167-0801-4411-B5E9-4EEA2E03EF46} = {8BD7283B-B4A2-4136-9142-CA0B2D72413D}
+		{6AB6F86F-74AD-4CB0-A5FD-7FB06CB43825} = {031F44E8-1EA6-45AA-AA21-264F8370B5E7}
+		{885B8179-20C0-4CBB-BAB7-0400C8BD65D5} = {6AB6F86F-74AD-4CB0-A5FD-7FB06CB43825}
+		{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B} = {885B8179-20C0-4CBB-BAB7-0400C8BD65D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF46CD4B-AFA4-4992-B56C-C55B4C20FB8D}
