@@ -18,6 +18,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{6AB6F86F-74AD-4CB0-A5FD-7FB06CB43825}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsoncpp_example", "jsoncpp_example", "{885B8179-20C0-4CBB-BAB7-0400C8BD65D5}"
+	ProjectSection(SolutionItems) = preProject
+		jsoncpp_setup_guide.md = jsoncpp_setup_guide.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "json_type_conversion_example.cpp", "libraries\json\jsoncpp_examples\json_type_conversion_example.cpp\json_type_conversion_example.cpp.vcxproj", "{97F4D6D2-FC1C-49C1-AAAC-0BAC96F9369B}"
 EndProject
